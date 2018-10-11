@@ -28,7 +28,8 @@
 	},
 	"class": "other",
 	"capabilities": [
-		"onoff"
+		"onoff",
+		"lockunlock"
 	],
 	"mobile": {
 		"components": [
@@ -51,6 +52,15 @@
 		"small": "/drivers/ZW080/assets/images/small.jpg"
 	},
 	"settings": [
+		{
+			"id": 252,
+			"type": "checkbox",
+			"label": {
+				"en": "Siren Locked",
+				"nl": "Sirene vergrendeld"
+			},
+			"value": false
+		},
 		{
 			"id": 37,
 			"type": "dropdown",
