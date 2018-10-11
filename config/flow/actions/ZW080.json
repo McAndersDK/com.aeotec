@@ -28,6 +28,34 @@
 		]
 	},
 	{
+		"id": "ZW080-lock_enable",
+		"title": {
+			"en": "Lock siren",
+			"nl": "sluissirene"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=ZW080"
+			}
+		]
+	},
+	{
+		"id": "ZW080-lock_disable",
+		"title": {
+			"en": "Unlock siren",
+			"nl": "ontgrendel sirene"
+		},
+		"args": [
+			{
+				"name": "device",
+				"type": "device",
+				"filter": "driver_id=ZW080"
+			}
+		]
+	},
+	{
 		"id": "ZW080-set_alarm",
 		"title": {
 			"en": "Set alarm sound",
